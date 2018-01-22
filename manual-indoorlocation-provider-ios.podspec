@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "ManualIndoorLocationProvider"
+  s.name         = "manual-indoorlocation-provider-ios"
   s.version      = "1.0.0"
   s.license      = { :type => 'MIT' }
   s.summary      = "Allows to set an IndoorLocation manually"
@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
   s.source       = { :git => "https://github.com/IndoorLocation/manual-indoor-location-provider-ios.git", :tag => "#{s.version}" }
-  s.source_files  = "manual-indoor-location-provider-ios/Provider/*.{h,m}"
+  s.source_files  = "manual-indoorlocation-provider-ios/Provider/*.{h,m}"
   s.dependency "IndoorLocation", "~> 1.0"
 end
