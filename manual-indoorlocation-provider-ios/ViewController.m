@@ -25,7 +25,7 @@
     
 - (void) plugin:(MapwizePlugin *)plugin didTapOnMap:(MWZLatLngFloor *)latLngFloor {
     
-    ILIndoorLocation* location = [[ILIndoorLocation alloc] initWithLatitude: latLngFloor.coordinates.latitude longitude:latLngFloor.coordinates.longitude floor:latLngFloor.floor];
+    ILIndoorLocation* location = [[ILIndoorLocation alloc] initWithProvider: self.manualLocationProvider latitude: latLngFloor.coordinates.latitude longitude:latLngFloor.coordinates.longitude floor:latLngFloor.floor];
     [self.manualLocationProvider setIndoorLocation:location];
     
 }
