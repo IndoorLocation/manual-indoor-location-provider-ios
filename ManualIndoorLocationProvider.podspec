@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ManualIndoorLocationProvider"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.license      = { :type => 'MIT' }
   s.summary      = "Allows to set an IndoorLocation manually"
   s.homepage     = "https://github.com/IndoorLocation/manual-indoor-location-provider-ios.git"
