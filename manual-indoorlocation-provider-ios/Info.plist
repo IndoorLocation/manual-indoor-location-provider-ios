@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>MGLMapboxAccessToken</key>
-	<string>pk.eyJ1IjoibWFwd2l6ZSIsImEiOiJjamNhYnN6MjAwNW5pMnZvMnYzYTFpcWVxIn0.veTCqUipGXCw8NwM2ep1Xg</string>
+	<string>pk.mapwize</string>
 	<key>MWZMapwizeApiKey</key>
 	<string>1f04d780dc30b774c0c10f53e3c7d4ea</string>
 	<key>MGLMapboxMetricsEnabledSettingShownInApp</key>
