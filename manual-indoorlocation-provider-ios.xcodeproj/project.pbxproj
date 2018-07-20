@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20516388298A9AEB8EC0AFB9 /* Pods_manual_indoorlocation_provider_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECD4BA47592B0BA292246E1 /* Pods_manual_indoorlocation_provider_ios.framework */; };
 		8F7BE98B2015F9490035D96F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BE98A2015F9490035D96F /* AppDelegate.m */; };
 		8F7BE98E2015F9490035D96F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BE98D2015F9490035D96F /* ViewController.m */; };
 		8F7BE9912015F9490035D96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BE98F2015F9490035D96F /* Main.storyboard */; };
@@ -14,11 +15,11 @@
 		8F7BE9962015F9490035D96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7BE9942015F9490035D96F /* LaunchScreen.storyboard */; };
 		8F7BE9992015F9490035D96F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BE9982015F9490035D96F /* main.m */; };
 		8F7BE9A220160B570035D96F /* ILManualIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BE9A120160B570035D96F /* ILManualIndoorLocationProvider.m */; };
-		C3CAB34223B8239054ECAC14 /* Pods_manual_indoorlocation_provider_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB795325216786159F17E3 /* Pods_manual_indoorlocation_provider_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84DB795325216786159F17E3 /* Pods_manual_indoorlocation_provider_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manual_indoorlocation_provider_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2100B7A17B71BAD794584DAB /* Pods-manual-indoorlocation-provider-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manual-indoorlocation-provider-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manual-indoorlocation-provider-ios/Pods-manual-indoorlocation-provider-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		62495B227AC00CA65DA0AF5F /* Pods-manual-indoorlocation-provider-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manual-indoorlocation-provider-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-manual-indoorlocation-provider-ios/Pods-manual-indoorlocation-provider-ios.release.xcconfig"; sourceTree = "<group>"; };
 		8F7BE9862015F9490035D96F /* manual-indoorlocation-provider-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "manual-indoorlocation-provider-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7BE9892015F9490035D96F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F7BE98A2015F9490035D96F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,8 +32,7 @@
 		8F7BE9982015F9490035D96F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F7BE9A020160B570035D96F /* ILManualIndoorLocationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILManualIndoorLocationProvider.h; sourceTree = "<group>"; };
 		8F7BE9A120160B570035D96F /* ILManualIndoorLocationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILManualIndoorLocationProvider.m; sourceTree = "<group>"; };
-		C9E2508A497FA0835ABEC623 /* Pods-manual-indoorlocation-provider-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manual-indoorlocation-provider-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-manual-indoorlocation-provider-ios/Pods-manual-indoorlocation-provider-ios.release.xcconfig"; sourceTree = "<group>"; };
-		E18559D48BF06B0F8C832DAF /* Pods-manual-indoorlocation-provider-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manual-indoorlocation-provider-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manual-indoorlocation-provider-ios/Pods-manual-indoorlocation-provider-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		CECD4BA47592B0BA292246E1 /* Pods_manual_indoorlocation_provider_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manual_indoorlocation_provider_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,26 +40,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CAB34223B8239054ECAC14 /* Pods_manual_indoorlocation_provider_ios.framework in Frameworks */,
+				20516388298A9AEB8EC0AFB9 /* Pods_manual_indoorlocation_provider_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D5521772C3ABD888AD64598 /* Frameworks */ = {
+		2DCA2333FE503D2FF6A5272F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84DB795325216786159F17E3 /* Pods_manual_indoorlocation_provider_ios.framework */,
+				CECD4BA47592B0BA292246E1 /* Pods_manual_indoorlocation_provider_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5CB8364C6C7898A9940FF85D /* Pods */ = {
+		85AD9093210BD63A492E20D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E18559D48BF06B0F8C832DAF /* Pods-manual-indoorlocation-provider-ios.debug.xcconfig */,
-				C9E2508A497FA0835ABEC623 /* Pods-manual-indoorlocation-provider-ios.release.xcconfig */,
+				2100B7A17B71BAD794584DAB /* Pods-manual-indoorlocation-provider-ios.debug.xcconfig */,
+				62495B227AC00CA65DA0AF5F /* Pods-manual-indoorlocation-provider-ios.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -69,8 +69,8 @@
 			children = (
 				8F7BE9882015F9490035D96F /* manual-indoorlocation-provider-ios */,
 				8F7BE9872015F9490035D96F /* Products */,
-				5CB8364C6C7898A9940FF85D /* Pods */,
-				4D5521772C3ABD888AD64598 /* Frameworks */,
+				85AD9093210BD63A492E20D6 /* Pods */,
+				2DCA2333FE503D2FF6A5272F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,11 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F7BE99C2015F9490035D96F /* Build configuration list for PBXNativeTarget "manual-indoorlocation-provider-ios" */;
 			buildPhases = (
-				C35431FB8C00BCF170B806A7 /* [CP] Check Pods Manifest.lock */,
+				1848D6CD65163EA575AAE852 /* [CP] Check Pods Manifest.lock */,
 				8F7BE9822015F9490035D96F /* Sources */,
 				8F7BE9832015F9490035D96F /* Frameworks */,
 				8F7BE9842015F9490035D96F /* Resources */,
-				E90B37EF986F5A5FD4EF773C /* [CP] Embed Pods Frameworks */,
+				3CA0BFEFB3B1EEC65323FB0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,7 +177,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C35431FB8C00BCF170B806A7 /* [CP] Check Pods Manifest.lock */ = {
+		1848D6CD65163EA575AAE852 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,7 +195,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E90B37EF986F5A5FD4EF773C /* [CP] Embed Pods Frameworks */ = {
+		3CA0BFEFB3B1EEC65323FB0A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,7 +207,6 @@
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 				"${PODS_ROOT}/MapwizeForMapbox/MapwizeForMapbox.framework",
-				"${PODS_ROOT}/MotionDnaSDK/MotionDnaSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -216,7 +215,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapwizeForMapbox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionDnaSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,7 +367,7 @@
 		};
 		8F7BE99D2015F9490035D96F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E18559D48BF06B0F8C832DAF /* Pods-manual-indoorlocation-provider-ios.debug.xcconfig */;
+			baseConfigurationReference = 2100B7A17B71BAD794584DAB /* Pods-manual-indoorlocation-provider-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -387,7 +385,7 @@
 		};
 		8F7BE99E2015F9490035D96F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9E2508A497FA0835ABEC623 /* Pods-manual-indoorlocation-provider-ios.release.xcconfig */;
+			baseConfigurationReference = 62495B227AC00CA65DA0AF5F /* Pods-manual-indoorlocation-provider-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
